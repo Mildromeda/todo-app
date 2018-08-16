@@ -40,6 +40,3 @@ export default class ToDoList extends Component {
     )
   }
 }
-
-
-/* Using index in line 37 eliminates the key error in dev tools. Works fine even without it.*/
