@@ -11,11 +11,11 @@ export default class ToDoList extends Component {
         this.addToList = this.addToList.bind(this);
     }
 
-    handleChange(input){  {/* you can name input argument anything. On line 32, e.target.value passes into input argument */}
+    handleChange(input){  
         this.setState({userInput:input});
     }
-    addToList(input){ {/* this.state.userInput passes into input argument */}
-        let newList=this.state.list; {/* Creates a new array newList */}
+    addToList(input){ 
+        let newList=this.state.list; 
         newList.push(input);
         this.setState({
             list:newList,
